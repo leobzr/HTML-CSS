@@ -22,11 +22,15 @@ TV: */
         color: black;
     }
 
-    img#phone { display: n+one; }
+    img#phone { display: none; }
     img#tablet { display: none; }
     img#print { display: block; }
     img#pc { display: none; }
     img#tv { display: none; }
+    
+}
+
+@media screen and (max-width: 768px) {
     
 }
 

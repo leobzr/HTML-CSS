@@ -12,7 +12,13 @@ body, html {
 
 header {
     padding: 10px;
+    background-color: rgb(27, 128, 128);
+}
+
+header > h1 {
     text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
 }
 
 menu {
@@ -28,19 +34,19 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(166, 204, 204);
+    background-color: rgb(85, 156, 156);
     color: white;
-    border-top: 2px solid white;
+    
 
 }
 
 menu > ul > li > a:hover {
-    background-color: rgb(110, 156, 156);
+    background-color: rgb(18, 68, 68);
     
 }
 
 span#iburger {
-    background-color: rgb(87, 119, 119);
+    background-color: rgb(76, 170, 170);
     display: block;
     text-align: center;
     padding: 10px;
@@ -53,7 +59,7 @@ span#iburger:hover {
 }
 
 main {
-    width: 90vw;
+    width: 80vw;
     background-color: white;
     margin:auto;
     padding: 10px;
